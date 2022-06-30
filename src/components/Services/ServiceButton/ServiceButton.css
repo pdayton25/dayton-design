@@ -1,0 +1,15 @@
+.cta-btn {
+    width: 90%;
+    height: 40px;
+    background: linear-gradient(267.75deg, rgba(237, 156, 61, 0.85) 2.09%, rgba(217, 126, 20, 0.85) 40.41%);
+    border-radius: 16px;
+    border: none;
+    margin-bottom: 2rem;
+}
+.cta-txt {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
