@@ -1,24 +1,32 @@
 :root {
-    --header-color: transparent;
+    --header-color: black;
 }
 .header {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--header-color);
     position: fixed;
     top: 0px;
+    height: 90px;
+    background-color: black;
+}
+.header-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-left: 2rem;
     margin-bottom: .5rem;
     margin-top: .5rem;
-
 }
 .header-right {
     display: flex;
     align-items: center;
     margin-right: 4rem;
 }
-.logo {
-    font-size: 2.5rem;
+
+.logo-wrapper {
+    display: flex;
+    margin: 0 auto;
 }

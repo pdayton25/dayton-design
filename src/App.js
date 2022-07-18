@@ -8,7 +8,7 @@ import Modal from './components/Modal/Modal';
 import Contact from './components/Contact/Contact';
 
 //Images
-import Bolt from './img/boltstorage.png'
+import Hallway from './img/hallway.jpeg'
 import Thirteenth from './img/13th-Floor.png'
 
 
@@ -21,10 +21,10 @@ function App() {
       <Header />
       <Hero />
       <Services />
-      <ImageBreak alt='bolt-storage' image={Bolt}/>
+      <ImageBreak alt='bolt-storage' image={Hallway}/>
       <Reviews />
       <ImageBreak alt='13th-Floor' image={Thirteenth}/>
-      <Modal title='Contact' show={show}>
+      <Modal title='CONTACT' show={show}>
         <Contact />
       </Modal>
       <button onClick={()=> setShow(true)}>Show Modal</button>

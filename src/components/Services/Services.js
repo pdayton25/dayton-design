@@ -23,15 +23,22 @@ const serviceData = {
 
 const Services = () => {
     return (
-        <section className="service-section">
-            <img src={require(`../../img/squiggle.png`)} alt='background' className='background-image'></img>
-            <h1 className="service-header">Our Services</h1>
-            <div className="card-container">
-                <Card data={serviceData[0]}/>
-                <Card data={serviceData[1]}/>
-                <Card data={serviceData[2]}/>
-            </div>
-        </section>
+        <>
+            <section className='brands'>
+                <img src={require('../../img/13fi-logo.png')} alt='13th Floor Investment' className="company-logo"/>
+                <img src={require('../../img/13fihomes-logo.png')} alt='13th Floor Homes' className="company-logo"/>
+                <img src={require('../../img/BoltStorage-logo.png')} alt='Bolt Storage' className="company-logo"/>
+            </section>
+            <section className="service-section">
+                <img src={require(`../../img/squiggle.png`)} alt='background' className='background-image'></img>
+                <h1 className="service-header">Our Services</h1>
+                <div className="card-container">
+                    <Card data={serviceData[0]}/>
+                    <Card data={serviceData[1]}/>
+                    <Card data={serviceData[2]}/>
+                </div>
+            </section>
+        </>
     )
 };
 export default Services;

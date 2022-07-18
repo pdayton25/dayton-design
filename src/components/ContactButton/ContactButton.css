@@ -1,11 +1,12 @@
 .contact-btn {
     width: 187px;
-    height: 40px;
-    background: linear-gradient(268.51deg, rgba(96, 145, 187, 0.75) 1.87%, rgba(50, 119, 152, 0.75) 63.8%);
+    height: 35px;
     border-radius: 16px;
+    border: 1px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
     letter-spacing: 3px;
+    margin-left: 1rem;
 }

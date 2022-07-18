@@ -12,6 +12,8 @@
 .modal-content{
     width: 60%;
     background-color: #fff;
+    border-radius: 1rem;
+    padding: 1rem;
 }
 .modal-header, .modal-footer {
     padding: 1rem;
@@ -22,6 +24,8 @@
 }
 .modal-title {
     margin: 0;
+    font-weight: 500;
+    font-kerning: auto;
 }
 .modal-body {
     padding: 10px;

@@ -7,12 +7,13 @@ const Modal = (props) => {
   if(!props.show) {
     return null
   }
+  
   const title = props.title
     return (
         <div className='modal'>
           <div className='modal-content'>
             <div className='modal-header'>
-              <h4 className='modal-title'>{title}</h4>
+              <h2 className='modal-title'>{title}</h2>
               <button className='modal-close' onClick={()=>{}}>X</button>
             </div>
             <div className='modal-body'>
