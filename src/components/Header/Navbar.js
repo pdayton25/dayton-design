@@ -11,10 +11,10 @@ const Navbar = () => {
     if(isOpen === true) {
       return (
         <ul className='menu'>
-          <li>Services</li>
-          <li>Portfolio</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li className='item'>Services</li>
+          <li className='item'>Portfolio</li>
+          <li className='item'>About</li>
+          <li className='item'>Contact</li>
         </ul>
       )
     }

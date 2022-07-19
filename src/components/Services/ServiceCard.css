@@ -1,18 +1,24 @@
 .service-card {
-    width: 339px;
-    height: 453px;
-    border-radius: 33px;
-    border: 1px solid gray;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    width: 100vw;
+    max-width: 1200px;
+    color: white;
+    margin: 0 auto;
 }
-.img-container {
+.header-container {
     margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+.service-title {
+    font-size: 2.5rem;
+    padding-right: 1rem;
+    font-weight: 200;
+}
+.service-img {
+    max-height: 50px;
 }
 .service-content{
-    width: 80%;
+    width: 90vw;
 }
 .service-content{
     display: flex;

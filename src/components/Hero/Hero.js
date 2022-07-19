@@ -1,18 +1,19 @@
 import React from 'react';
-import { Parallax } from 'react-parallax';
+import { Parallax, Background } from 'react-parallax';
 
 import City from '../../img/black-white-city.jpeg';
 import './Hero.css';
 
 
 const Hero = () => (
-    <Parallax bgImage={City} bgImageAlt='city' strength={300} className='hero'>
-        <div className='content'>
-            <h1 className='tagline'>STAND OUT AMONG A SEA OF COMPETITORS</h1>
-            <button className='hero-btn'>
-                <p className='hero-btn-txt'>Book a Designer!</p>
-            </button>
-        </div>
+    <Parallax strength={300} className='hero'>
+        <Background className='hero'>
+            <img src={City} alt='city'/>
+        </Background>
+            <div className='content'>
+                <h1 className='tagline first'><strong className='tag-color'>STAND OUT</strong></h1>
+                <h2 className='tagline second'>AMONGST A SEA OF COMPETITORS</h2>
+            </div>      
     </Parallax>
 );
 export default Hero;

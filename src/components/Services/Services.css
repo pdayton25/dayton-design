@@ -2,10 +2,13 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
     overflow: hidden;
     box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
-    background-color: black;
+    background-color: rgb(48, 48, 48);
+}
+.services{
+    width: 100vw;
 }
 .background-image {
     position: absolute;
@@ -14,19 +17,20 @@
     z-index: -1;
 }
 .service-header {
-    margin: 2rem auto;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2rem;
     background: white;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     letter-spacing: .15em;
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 400;
 }
 .card-container {
     margin: 2rem auto;
-    display: flex;
-    width: 75%;
+    width: 90%;
     justify-content: space-between;  
 }
 .brands {

@@ -1,25 +1,40 @@
 .hero {
     width: 100%;
-    height: 100vh;
-    max-height: 1200px;
+    min-height: 1200px;
     z-index: -1;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
 }
+.tag-color {
+    color: rgb(243, 148, 16);
+    font-size: 5rem;
+}
 .content {
     display: flex;
+    width: 130%;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     position: relative;
+    animation: 1s ease-in 0s 1 slideUp;
 }
+@keyframes slideUp {
+    0% {
+        transform: translateY(10%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 .tagline {
-    text-align: center;
     letter-spacing: 5px;
     color: white;
     max-width: 50vw;
+    margin: 0;
 }
 .hero-btn {
     width: 264px;
