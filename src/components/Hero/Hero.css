@@ -1,23 +1,27 @@
 .hero {
-    width: 100%;
     min-height: 1200px;
     z-index: -1;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items:flex-end;
     position: relative;
+}
+.second {
+    font-weight: 400;
+    font-size: 2rem;
 }
 .tag-color {
     color: rgb(243, 148, 16);
-    font-size: 5rem;
+    font-size: 7rem;
 }
 .content {
     display: flex;
-    width: 130%;
     flex-direction: column;
-    justify-content: center;
+    justify-content: right;
     position: relative;
     animation: 1s ease-in 0s 1 slideUp;
+    margin-left: 10vw;
+    margin-bottom: 15vh;
 }
 @keyframes slideUp {
     0% {
@@ -35,18 +39,5 @@
     color: white;
     max-width: 50vw;
     margin: 0;
-}
-.hero-btn {
-    width: 264px;
-    height: 44px;
-    background: rgba(217, 217, 217, 0.3);
-    border-radius: 16px;
-    border-color: linear-gradient(268.51deg, rgba(255, 255, 255, 1) 1.87%, rgba(242, 169, 83, 1) 63.8%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.hero-btn-txt {
-    color: white;
-    font-size: 1.2rem;
+    font-family: "MarcellusSC";
 }

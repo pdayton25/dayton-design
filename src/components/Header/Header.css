@@ -10,15 +10,19 @@
     top: 0px;
     height: 90px;
     background-color: black;
+    z-index: 500;
 }
 .header-wrapper {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     margin-left: 2rem;
     margin-bottom: .5rem;
     margin-top: .5rem;
+    position: relative;
+}
+.header-wrapper:last-child{
+    justify-content: right;
 }
 .header-right {
     display: flex;
@@ -26,7 +30,7 @@
     margin-right: 4rem;
 }
 
-.logo-wrapper {
-    display: flex;
-    margin: 0 auto;
+.logo-wrap {
+    margin-left: auto;
+    margin-right: auto;
 }

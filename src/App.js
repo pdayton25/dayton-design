@@ -1,18 +1,27 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
+
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import Services from './components/Services/Services';
 import ImageBreak from './components/ImageBreak/ImageBreak';
-import Reviews from './components/Reviews/Reviews';
+import About from './components/About/About';
 import Modal from './components/Modal/Modal';
 import Contact from './components/Contact/Contact';
 
 //Images
 import Hallway from './img/hallway.jpeg'
-import Thirteenth from './img/13th-Floor.png'
+import Building from './img/building-grayscale.jpeg'
+
 
 
 function App() {
+
+  useEffect(() => {
+    Aos.init({duration: 1000});
+  }, []) 
 
   const [show, setShow] = useState(false)
 
@@ -22,8 +31,8 @@ function App() {
       <Hero />
       <Services />
       <ImageBreak alt='bolt-storage' image={Hallway}/>
-      <Reviews />
-      <ImageBreak alt='13th-Floor' image={Thirteenth}/>
+      <About />
+      <ImageBreak alt='13th-Floor' image={Building}/>
       <Modal title='CONTACT' show={show}>
         <Contact />
       </Modal>

@@ -4,7 +4,15 @@ import './ImageBreak.css';
 
 const ImageBreak = ({image, alt}) => {
     return (
-        <Parallax bgImage={image} bgImageAlt={alt} strength={300} className='image-break'></Parallax>
+        <Parallax strength={300} className='image-break' bgImage={image} bgImageAlt={alt}>
+            
+        </Parallax>
     );  
 };
 export default ImageBreak;
+
+/*
+<Background className='image-break'>
+    <img src={image} alt={alt} className="test-tag"/>
+</Background>
+*/

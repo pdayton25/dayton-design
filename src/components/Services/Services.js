@@ -1,6 +1,7 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Card from './ServiceCard'
 import './Services.css';
+
 
 
 const serviceData = {
@@ -22,16 +23,12 @@ const serviceData = {
 };
 
 const Services = () => {
+
     return (
-        <div className="services">
-            <section className='brands'>
-                <img src={require('../../img/13fi-logo.png')} alt='13th Floor Investment' className="company-logo"/>
-                <img src={require('../../img/13fihomes-logo.png')} alt='13th Floor Homes' className="company-logo"/>
-                <img src={require('../../img/BoltStorage-logo.png')} alt='Bolt Storage' className="company-logo"/>
-            </section>
+        <div className="services" >
             <section className="service-section">
                 <img src={require(`../../img/squiggle.png`)} alt='background' className='background-image'></img>
-                <h1 className="service-header">SERVICES</h1>
+                <h1 className="service-header" data-aos='fade-up' data-aos-delay="100">Services</h1>
                 <div className="card-container">
                     <Card data={serviceData[0]}/>
                     <Card data={serviceData[1]}/>
