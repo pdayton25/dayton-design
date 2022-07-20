@@ -1,20 +1,22 @@
 .bar {
-  width: 35px;
-  height: 2px;
+  width: 45px;
+  height: 3px;
   border-radius: 1rem;
   background-color: rgba(255, 255, 255, 0.869);
   margin: 5px;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 .navBar {
   display: flex;
-  flex-direction: column;
   justify-content: end;
   padding-right: 1rem;
+  align-items: center;
 }
 .menu-button-container {
   display: flex;
-  flex-direction: columm;
+  flex-direction: column;
   align-items: center;
   justify-content: right;
 }
@@ -40,10 +42,20 @@
   justify-content: center;
   font-size: 1.5rem;
   padding: .7rem;
+  color: white;
+  text-decoration: none;
 }
 .item:hover {
   transform: scale(1.1);
   transition-duration: .25s;
   background-color: white;
   color: black;
+
+}
+.contact-route {
+  font-family: "MarcellusSC";
+  font-size: 1.7rem;
+  padding-right: 1.5rem;
+  text-decoration: none;
+  color: white
 }

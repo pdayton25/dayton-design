@@ -11,10 +11,9 @@ const Navbar = () => {
     if(isOpen === true) {
       return (
         <ul className='menu'>
-          <li className='item'>Services</li>
-          <li className='item'>Portfolio</li>
-          <li className='item'>About</li>
-          <li className='item'>Contact</li>
+          <a className='item' href="#services" onClick={handleClick}>Services</a>
+          <a className='item' href="#about" onClick={handleClick}>About</a>
+          <a className='item' href="#contact" onClick={handleClick}>Contact</a>
         </ul>
       )
     }
@@ -22,6 +21,7 @@ const Navbar = () => {
   
   return (
     <nav className="navBar">
+      <a className='contact-route' href='#contact'>Contact</a>
       <label className='menu-button-container' onClick={handleClick}>
         <div className='bar'></div>
         <div className='bar'></div>

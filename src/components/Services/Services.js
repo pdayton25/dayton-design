@@ -25,7 +25,7 @@ const serviceData = {
 const Services = () => {
 
     return (
-        <div className="services" >
+        <div className="services" id="services" >
             <section className="service-section">
                 <img src={require(`../../img/squiggle.png`)} alt='background' className='background-image'></img>
                 <h1 className="service-header" data-aos='fade-up' data-aos-delay="100">Services</h1>

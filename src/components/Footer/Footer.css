@@ -1,0 +1,23 @@
+.footer {
+    max-height: 20vh;
+    background-color: black;
+    display: flex;;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "MarcellusSC";
+    font-size: 1.5rem;
+}
+.p {
+    margin: 0;
+}
+.social {
+    padding-top: 2rem;
+    display: flex;
+}
+.social-icon {
+    margin: 1rem;
+}

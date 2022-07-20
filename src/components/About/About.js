@@ -6,7 +6,7 @@ const About = () => {
 
     return (
         <>
-            <Section header="About" >
+            <Section header="About" id='about' >
                 <div className="about-container">
                     <div className='about'>
                         <div className="persons" data-aos='fade-right' data-aos-delay="300">

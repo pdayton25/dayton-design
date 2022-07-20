@@ -5,6 +5,7 @@
     justify-content: left;
     align-items:flex-end;
     position: relative;
+    object-fit: cover;
 }
 .second {
     font-weight: 400;

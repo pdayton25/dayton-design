@@ -1,0 +1,77 @@
+
+.contact-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    color: white;
+    font-family: "MarcellusSC";
+    font-size: 2rem;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.contact-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.message {
+    width: 100%;
+    margin: 1rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+.contact-field {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+.input {
+    border-radius: .5rem;
+    background-color: inherit;
+    border: 1px solid white;
+    height: 2rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: white;
+}
+.budget {
+    prefix: "$";
+}
+label {
+    padding-bottom: .5rem;
+}
+textarea {
+    border-radius: .5rem;
+    background-color: inherit;
+    border: 1px solid white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: white;
+}
+.submit-contact-form {
+    background-color: orange;
+    font-size: 2rem;
+    font-family: "MarcellusSC";
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    font-weight: 600;
+    width: 15rem;
+    margin-right: 2rem;
+}
+.submit-contact-form:hover {
+    transform: scale(1.05);
+    transition-duration: 200ms;
+}
+.submit-container {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 5rem;
+}
