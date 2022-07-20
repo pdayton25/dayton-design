@@ -3,7 +3,6 @@ import ServiceButton from './ServiceButton/ServiceButton'
 import './ServiceCard.css';
 
 const ServiceCard = ({data}) => {
-    console.log(data);
 
 
     return (

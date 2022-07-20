@@ -6,7 +6,6 @@ import { useEffect } from 'react';
 const Header = () => {
   useEffect(() => {
     const width = window.innerWidth;
-    console.log(width)
     const logoSvg = document.getElementById('svg')
   
     if (width < 850) {
