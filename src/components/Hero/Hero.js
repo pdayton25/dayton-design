@@ -6,11 +6,11 @@ import './Hero.css';
 
 
 const Hero = () => (
-    <Parallax strength={300} className='hero' bgImage={City} bgImageAlt='city' bgImageStyle={{height: '100%'}}>
-            <div className='content'>
-                <h1 className='tagline'><strong className='tag-color'>STAND OUT</strong></h1>
-                <h2 className='tagline second'>AMONGST A SEA OF COMPETITORS</h2>
-            </div>      
-    </Parallax>
+        <Parallax strength={300} className='hero' bgImage={City} bgImageAlt='city' bgImageStyle={{height: '100%', 'object-fit' : 'cover'}}>
+                <div className='content'>
+                    <h1 className='tagline'><strong className='tag-color'>STAND OUT</strong></h1>
+                    <h2 className='tagline second'>AMONGST A SEA OF COMPETITORS</h2>
+                </div>      
+        </Parallax>
 );
 export default Hero;

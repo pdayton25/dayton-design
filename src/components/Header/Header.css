@@ -1,6 +1,9 @@
 :root {
     --header-color: black;
 }
+svg {
+    transform: scale(.7);
+}
 .header {
     width: 100%;
     display: flex;

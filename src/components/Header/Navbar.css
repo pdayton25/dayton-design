@@ -1,6 +1,6 @@
 .bar {
-  width: 45px;
-  height: 3px;
+  width: 37px;
+  height: 2px;
   border-radius: 1rem;
   background-color: rgba(255, 255, 255, 0.869);
   margin: 5px;
@@ -54,7 +54,7 @@ html {
 }
 .contact-route {
   font-family: "MarcellusSC";
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   padding-right: 1.5rem;
   text-decoration: none;
   color: white
