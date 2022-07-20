@@ -21,7 +21,6 @@ const Navbar = () => {
   
   return (
     <nav className="navBar">
-      <a className='contact-route' href='#contact'>Contact</a>
       <label className='menu-button-container' onClick={handleClick}>
         <div className='bar'></div>
         <div className='bar'></div>
