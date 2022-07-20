@@ -15,7 +15,7 @@ const About = () => {
                                 <p>Patrick</p>
                             </div>
                             <div className="person">
-                                <img src={require('../../img/headshot.png')} alt="headshot" className="headshot-img"/>
+                                <img src={require('../../img/trish.jpg')} alt="headshot" className="headshot-img"/>
                                 <p>Trish</p>
                             </div>
                             <div className="person">
