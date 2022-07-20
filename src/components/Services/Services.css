@@ -11,7 +11,7 @@
 }
 .background-image {
     position: absolute;
-    left: 50%;
+    left: 40%;
     overflow: hidden;
     top: -00%;
     z-index: -1;
@@ -45,4 +45,10 @@
 }
 .company-logo {
     max-height: 90px;
+}
+
+@media screen and (max-width: 850px) {
+    .card-container {
+        width: 750px;
+    }
 }

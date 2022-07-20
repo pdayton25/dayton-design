@@ -5,9 +5,10 @@ import './ServiceButton.css'
 //pass call to action
 const ServiceButton = (CTA) => {
     return (
-        <button className="cta-btn" onClick={()=>{}}>
+        
+        <a className="cta-btn" href='#contact'>
             Get Started!
-        </button>
+        </a>
     );
 };
 export default ServiceButton;

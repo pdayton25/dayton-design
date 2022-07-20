@@ -15,7 +15,6 @@
 .contact-row {
     width: 100%;
     display: flex;
-    flex-direction: row;
 }
 .message {
     width: 100%;
@@ -74,4 +73,25 @@ textarea {
     display: flex;
     justify-content: right;
     margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 1100px) {
+    .contact-row {
+        flex-direction: column;
+    }
+    .contact-field {
+        width: auto;
+        margin: .5rem;
+    }
+    .message {
+        margin: .5rem;
+        width: auto;
+    }
+    .submit-container {
+        align-items: end;
+    }
+    .submit-contact-form {
+        margin-top: .5rem;
+        margin-right: 0;
+    }
 }

@@ -22,7 +22,9 @@ const ServiceCard = ({data}) => {
                     })}
                 </ul>
                 </div>
+                <div className="service-button">
                 <ServiceButton />
+                </div>
             </div>
         </div>
     )

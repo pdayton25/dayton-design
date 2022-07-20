@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import Card from './ServiceCard'
+import ServiceCard from './ServiceCard'
 import './Services.css';
 
 
@@ -30,9 +30,9 @@ const Services = () => {
                 <img src={require(`../../img/squiggle.png`)} alt='background' className='background-image'></img>
                 <h1 className="service-header" data-aos='fade-up' data-aos-delay="100">Services</h1>
                 <div className="card-container">
-                    <Card data={serviceData[0]}/>
-                    <Card data={serviceData[1]}/>
-                    <Card data={serviceData[2]}/>
+                    <ServiceCard data={serviceData[0]}/>
+                    <ServiceCard data={serviceData[1]}/>
+                    <ServiceCard data={serviceData[2]}/>
                 </div>
             </section>
         </div>
