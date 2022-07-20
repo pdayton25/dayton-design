@@ -2,7 +2,9 @@
   font-family: "MarcellusSC";
   src: url('./fonts/MarcellusSC-Regular.ttf') format('truetype');
 }
-
+.html {
+  width: 100vw;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

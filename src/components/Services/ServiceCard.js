@@ -11,7 +11,7 @@ const ServiceCard = ({data}) => {
             <div className="service-card">
                 <div className="header-container">
                     <h2 className="service-title">{data.service}</h2>
-                    <img src={require(`../../img/${data.imgFile}`)} alt={data.service} className='service-img'></img>
+                    <img src={require(`../../img/${data.imgFile}`)} alt={data.service} className='service-img' />
                 </div>
                 <div className="service-content">
                 <ul className="service-list">

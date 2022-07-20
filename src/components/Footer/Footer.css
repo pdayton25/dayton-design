@@ -19,5 +19,6 @@
     display: flex;
 }
 .social-icon {
-    margin: 1rem;
+    margin: .5rem;
+    transform: scale(.7);
 }

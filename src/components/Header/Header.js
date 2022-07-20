@@ -11,7 +11,7 @@ const Header = () => {
   
     if (width < 850) {
       logoSvg.setAttribute("viewBox", '0 0 395 44')
-      logoSvg.setAttribute("width", '300')
+      logoSvg.setAttribute("width", '250')
     }
   }, [])
   

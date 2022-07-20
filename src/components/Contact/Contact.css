@@ -5,7 +5,7 @@
     overflow: hidden;
     color: white;
     font-family: "MarcellusSC";
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .contact-form {
     display: flex;
@@ -18,25 +18,24 @@
 }
 .message {
     width: 100%;
-    margin: 1rem;
+    margin: .5rem;
     height: 10rem;
     display: flex;
     flex-direction: column;
-    margin: 2rem;
 }
 .contact-field {
     width: 50%;
     display: flex;
     flex-direction: column;
-    margin: 2rem;
+    margin: .5rem;
 }
 .input {
     border-radius: .5rem;
     background-color: inherit;
     border: 1px solid white;
-    height: 2rem;
-    font-size: 1.5rem;
-    padding: 1rem;
+    height: 1.5rem;
+    font-size: 1rem;
+    padding: .5rem;
     color: white;
 }
 .budget {
@@ -57,17 +56,18 @@ textarea {
     background-color: orange;
     font-size: 2rem;
     font-family: "MarcellusSC";
-    padding: 1rem 2rem 1rem 2rem;
+    padding: .3rem 3rem .3rem 3rem;
     border-radius: 1rem;
     border: none;
     color: white;
     font-weight: 600;
     width: 15rem;
-    margin-right: 2rem;
+    margin-right:.5rem;
 }
 .submit-contact-form:hover {
     transform: scale(1.05);
     transition-duration: 200ms;
+    border-radius: 1rem;
 }
 .submit-container {
     display: flex;
@@ -93,5 +93,13 @@ textarea {
     .submit-contact-form {
         margin-top: .5rem;
         margin-right: 0;
+        border-radius: 1rem;;
+        
+    }
+}
+@media screen and (max-width: 850px) {
+    .submit-contact-form {
+        width: 100%;
+        border-radius: 1rem;
     }
 }
