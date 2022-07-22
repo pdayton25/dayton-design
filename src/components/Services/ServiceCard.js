@@ -4,7 +4,6 @@ import './ServiceCard.css';
 
 const ServiceCard = ({data}) => {
 
-
     return (
         <div className="card-container" data-aos='fade-up' data-aos-delay="300">
             <div className="service-card">
