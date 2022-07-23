@@ -13,8 +13,9 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
 //Images
-import Hallway from './img/hallway.jpeg'
-import Building from './img/building-grayscale.jpeg'
+import Hallway from './img/hallway.jpeg';
+import Building from './img/building-grayscale.jpeg';
+
 
 
 
