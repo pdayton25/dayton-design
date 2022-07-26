@@ -1,7 +1,7 @@
 import React from 'react';
 import { Parallax} from 'react-parallax';
 
-import City from '../../img/black-white-city.jpeg';
+import City from '../../img/black-white-city.avif';
 import './Hero.css';
 
 

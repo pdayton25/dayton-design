@@ -11,7 +11,7 @@ const About = () => {
                     <div className='about'>
                         <div className="persons" data-aos='fade-right' data-aos-delay="300">
                             <div className="person">
-                                <img src={require('../../img/headshot.png')} alt="headshot" className="headshot-img"/>
+                                <img src={require('../../img/headshot.avif')} alt="headshot" className="headshot-img"/>
                                 <p>Patrick</p>
                             </div>
                         </div>
