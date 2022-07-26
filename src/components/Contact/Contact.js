@@ -72,7 +72,7 @@ const Contact = () => {
                 <form className="contact-form">
                     <div className="contact-row">
                         <div className="contact-field">
-                            <label for="name">Name / name</label>
+                            <label for="name">Name / Company</label>
                             <input type='text' name='name' className='input' onChange={handleNameChange}></input>    
                         </div>
                         <div className="contact-field">

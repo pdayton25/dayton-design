@@ -4,7 +4,7 @@ import './ImageBreak.css';
 
 const ImageBreak = ({image, alt}) => {
     return (
-        <Parallax strength={300} className='image-break' bgImage={image} bgImageAlt={alt} bgImageStyle={{height: '130%', 'max-width': '100vw'}}>   
+        <Parallax strength={300} className='image-break' bgImage={image} bgImageAlt={alt} bgImageStyle={{height: '130%', 'maxWidth': '100vw'}}>   
         </Parallax>
     );  
 };
