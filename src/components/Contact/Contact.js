@@ -5,8 +5,6 @@ import './Contact.css';
 import { useEffect } from "react";
 
 const { REACT_APP_X_RAPIDAPI_KEY } = process.env;
-console.log(process.env);
-console.log(REACT_APP_X_RAPIDAPI_KEY);
 
 const Contact = () => {
 
@@ -18,8 +16,6 @@ const Contact = () => {
             message: '',
         });
     const [sendRequest, setSendRequest] = useState(false);
-
-    console.log(message);
 
     const handleEmailChange = (e) => {
         setSender(e.target.value);
@@ -49,8 +45,9 @@ const Contact = () => {
         'X-RapidAPI-Key': REACT_APP_X_RAPIDAPI_KEY,
         'X-RapidAPI-Host': 'fapimail.p.rapidapi.com'
     },
-    data: `{"recipient":"patrickdayton24@gmail.com","sender":${sender},"subject":${subject},"message":${message}}`
+    data: `{"recipient":"patrick.dayton24@gmail.com","sender":${sender},"subject":${subject},"message":${toString(message)}}`
     };
+    console.log(options);
 
     useEffect(() => {
         if (sendRequest) {
@@ -75,27 +72,27 @@ const Contact = () => {
                 <form className="contact-form">
                     <div className="contact-row">
                         <div className="contact-field">
-                            <label>Name / name</label>
+                            <label for="name">Name / name</label>
                             <input type='text' name='name' className='input' onChange={handleNameChange}></input>    
                         </div>
                         <div className="contact-field">
-                            <label>Email</label>
-                            <input type='text' name='name'  className='input' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" onChange={handleEmailChange}></input>
+                            <label for="email">Email</label>
+                            <input type='text' name='email'  className='input' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" onChange={handleEmailChange}></input>
                         </div>
                     </div>
                     <div className="contact-row">
                         <div className="contact-field">
-                            <label>Subject</label>
+                            <label for="subject">Subject</label>
                             <input type='text' name='subject' onChange={(e) => setSubject(e.target.value)} className='input'></input>  
                         </div>
                         <div className="contact-field">
-                            <label>Budget</label>
+                            <label for="budget">Budget</label>
                             <input type='number' name='budget' onChange={handleBudgetChange} className='input budget'></input>  
                         </div>
                     </div>
                     <div className="contact-row">
                         <div className="message">
-                            <label>Describe your needs</label>
+                            <label for="message">Describe your needs</label>
                             <textarea type='text' name='message' onChange={handleMessageChange} rows='12'></textarea>  
                         </div>
                     </div>

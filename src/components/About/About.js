@@ -14,14 +14,6 @@ const About = () => {
                                 <img src={require('../../img/headshot.png')} alt="headshot" className="headshot-img"/>
                                 <p>Patrick</p>
                             </div>
-                            <div className="person">
-                                <img src={require('../../img/trish.jpg')} alt="headshot" className="headshot-img"/>
-                                <p>Trish</p>
-                            </div>
-                            <div className="person">
-                                <img src={require('../../img/glenn-headshot.png')} alt="headshot" className="headshot-img"/>
-                                <p>Glenn</p>
-                            </div>
                         </div>
                         <div className="about-description" data-aos='fade-left' data-aos-delay="300">
                             <p>Dayton designs was started in 2022 with the vision to bring fresh design into an old fashioned market.</p>
