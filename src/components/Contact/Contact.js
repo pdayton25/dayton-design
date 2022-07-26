@@ -73,27 +73,27 @@ const Contact = () => {
                     <div className="contact-row">
                         <div className="contact-field">
                             <label for="name">Name / Company</label>
-                            <input type='text' name='name' className='input' onChange={handleNameChange}></input>    
+                            <input id='name' type='text' name='name' className='input' onChange={handleNameChange}></input>    
                         </div>
                         <div className="contact-field">
                             <label for="email">Email</label>
-                            <input type='text' name='email'  className='input' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" onChange={handleEmailChange}></input>
+                            <input id='email' type='text' name='email'  className='input' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" onChange={handleEmailChange}></input>
                         </div>
                     </div>
                     <div className="contact-row">
                         <div className="contact-field">
                             <label for="subject">Subject</label>
-                            <input type='text' name='subject' onChange={(e) => setSubject(e.target.value)} className='input'></input>  
+                            <input id='subject' type='text' name='subject' onChange={(e) => setSubject(e.target.value)} className='input'></input>  
                         </div>
                         <div className="contact-field">
                             <label for="budget">Budget</label>
-                            <input type='number' name='budget' onChange={handleBudgetChange} className='input budget'></input>  
+                            <input id='budget' type='number' name='budget' onChange={handleBudgetChange} className='input budget'></input>  
                         </div>
                     </div>
                     <div className="contact-row">
                         <div className="message">
                             <label for="message">Describe your needs</label>
-                            <textarea type='text' name='message' onChange={handleMessageChange} rows='12'></textarea>  
+                            <textarea id='message' type='text' name='message' onChange={handleMessageChange} rows='12'></textarea>  
                         </div>
                     </div>
                     <div className="contact-row submit-container">
