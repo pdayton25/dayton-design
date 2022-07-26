@@ -11,7 +11,7 @@ const About = () => {
                     <div className='about'>
                         <div className="persons" data-aos='fade-right' data-aos-delay="300">
                             <div className="person">
-                                <img src={require('../../img/headshot.avif')} alt="headshot" className="headshot-img"/>
+                                <amp-img src={require('../../img/headshot.avif')} alt="headshot" className="headshot-img"/>
                                 <p>Patrick</p>
                             </div>
                         </div>
@@ -25,9 +25,9 @@ const About = () => {
                     </div>
                 </div>
                 <section className='brands'>
-                    <img src={require('../../img/13fi-logo.png')} alt='13th Floor Investment' className="company-logo"/>
-                    <img src={require('../../img/13fihomes-logo.png')} alt='13th Floor Homes' className="company-logo"/>
-                    <img src={require('../../img/BoltStorage-logo.png')} alt='Bolt Storage' className="company-logo"/>
+                    <amp-img src={require('../../img/13fi-logo.png')} alt='13th Floor Investment' className="company-logo"/>
+                    <amp-img src={require('../../img/13fihomes-logo.png')} alt='13th Floor Homes' className="company-logo"/>
+                    <amp-img src={require('../../img/BoltStorage-logo.png')} alt='Bolt Storage' className="company-logo"/>
                 </section>
             </Section>
         </>
