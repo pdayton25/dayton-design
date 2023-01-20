@@ -16,7 +16,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className="about-description" data-aos='fade-left' data-aos-delay="300">
-                            <p>Dayton designs was started in 2022 with the vision to bring fresh design into an old fashioned market.</p>
+                            <p>Dayton designs was started in 2019 with the vision to bring fresh design into an old fashioned market.</p>
                             <p>While working in the CRE industry we saw time and time again that companies had poor collateral and site design.</p>
                             <p>A professional look is ESSENTIAL to grow and build trust with your investors, but more importantly your tenants.</p>
                             <p>Having recently worked with the likes of 13th Floor Investments and Bolt Storage to redesign their collateral and create templates for reporting, we saw just how valuable a fresh and professional look can be.</p>
